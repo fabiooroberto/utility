@@ -4,6 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>Utility</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Fabio Roberto</Authors>
+    <Company>fabiors.io</Company>
+    <PackageDescription>Pacote de funcionalidades para facilitar o desenvolvimento</PackageDescription>
+    <Description>Pacote de funcionalidades para facilitar o desenvolvimento</Description>
+    <RepositoryUrl>https://github.com/fabiooroberto/utility</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/fabiooroberto/utility</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>converter;int;decimal;datetime</PackageTags>
+    <Title>Utilities</Title>
+    <Summary>Pacote de funcionalidades para facilitar o desenvolvimento</Summary>
   </PropertyGroup>
 
 </Project>
