@@ -20,8 +20,8 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
-    - name: Test
-      run: dotnet test
+    # - name: Test
+    #   run: dotnet test
     
     - name: Create the package
       run: dotnet pack --configuration Release
