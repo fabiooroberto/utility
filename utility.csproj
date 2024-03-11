@@ -21,4 +21,8 @@
     <Summary>Pacote de funcionalidades para facilitar o desenvolvimento</Summary>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
 </Project>
