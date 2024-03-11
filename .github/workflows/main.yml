@@ -27,4 +27,4 @@ jobs:
       run: dotnet pack --configuration Release
 
     - name: Publish Package
-      run: dotnet nuget push "utility/bin/Release/*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/fabiooroberto/index.json
+      run: dotnet nuget push "bin/Release/*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/fabiooroberto/index.json
