@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
 
     steps:
     - uses: actions/checkout@main
@@ -27,7 +29,5 @@ jobs:
       run: dotnet pack --configuration Release
 
     - name: Publish Package
-      permissions:
-        packages: write
       # run: dotnet nuget push "bin/Release/*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/fabiooroberto/index.json
       run: dotnet nuget push "bin/Release/*.nupkg"  --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/fabiooroberto/index.json"
