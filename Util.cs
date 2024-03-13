@@ -6,4 +6,9 @@ public static class Util
     {
         return string.Join('-', value);
     }
+
+    public static string DateToString(this DateTime value)
+    {
+        return value.ToString("yyyy-dd-MM");
+    }
 }
